@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+	border-radius: 12px;
+	position: fixed;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 16px 32px;
+  text-decoration: none;
+	font-family: Arial, Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	border-radius: 6px;
+	border-spacing: 10px;
+	text-align: center;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #ff9696;
+  color: white;
+	transition-duration: 0.4s;
+}
+
+.active {
+  background-color: #ff9696;
+  color: white;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 20px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.staff-only {
+	background-color: black;
+	color: white;
+}
+
+h1 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+}
+
+.sec-1 {
+	padding: 10px;
+	color: white;
+	background-color: black;
+	border-radius: 12px;
+	box-shadow: 1px 1px 30px gray;
+	border: 1px solid black;
+}
+
+.sec-1 p {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.sec-1 h3 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	font-size: 24px;
+}
+.btn-1 {
+	color: white;
+	background-color: black;
+	border: 1px solid white;
+	padding: 10px;
+	border-radius: 6px;
+}
+.btn-1:hover {
+	color: black;
+	background-color: white;
+	transition-duration: 0.4s;
+}
+
+.btn-2 {
+	color: white;
+	background-color: #FF7272;
+	border: 1px solid white;
+	padding: 10px;
+	border-radius: 6px;
+}
+.btn-2:hover {
+	color: black;
+	background-color: white;
+	transition-duration: 0.4s;
+}
+
+.sec-2 {
+	padding: 10px;
+	color: white;
+	background-color: #ff7272;
+	border-radius: 12px;
+	box-shadow: 1px 1px 30px gray;
+	border: 1px solid #ff7272;
+}
+
+.sec-2 p {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.sec-2 h3 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	font-size: 24px;
+}
